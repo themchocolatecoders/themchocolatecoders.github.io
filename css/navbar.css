@@ -1,0 +1,20 @@
+.navbar-default{
+   background-color: #777;
+    padding-bottom: 8px;
+    border-color: #777;
+}
+.navbar-nav a{
+    color: white!important;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.navbar-brand{
+    color: white!important;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.navbar-collapse{
+    color: grey;
+}
+.navbar-brand:hover {color:black!important; }
+ul.nav a:hover { color:black!important; }

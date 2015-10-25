@@ -1,0 +1,95 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #5a5a5a;
+  
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.carousel {
+  height: 100%;
+}
+@media all and (max-width:600px){
+    .carousel-caption{
+        height: 60%;
+        z-index: 10;
+    }
+   .first-slide,.carousel-caption h1{
+        font-size:30px;
+    }
+   .first-slide,.carousel-caption h2{
+        font-size: 17px
+    }
+    .btn-primary{
+        margin-top: 40px;
+    }
+    .second-slide,.carousel-caption h1{
+        font-size:30px;
+    }
+   .second-slide,.carousel-caption h2{
+        font-size: 17px
+    }
+    .third-slide,.carousel-caption h1{
+        font-size:30px;
+    }
+   .third-slide,.carousel-caption h2{
+        font-size: 17px
+    }
+    .btn-primary{
+        margin-top: 40px;
+    }
+}
+@media all and (min-width:600px){
+    .carousel-caption{
+        height: 60%; 
+    }
+    .carousel-caption h1{
+        font-size: 50px;
+          
+    } 
+    .carousel-caption h2{
+        font-size: 30px;  
+    }
+    .btn-primary{
+        margin-top: 40px;
+    }
+}
+/* Declare heights because of positioning of img element */
+.carousel,.item,.active {
+  height: 100%;
+  background-color: #777;
+}
+html,body{height:100%;}
+
+.carousel-inner{height:100%;}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
