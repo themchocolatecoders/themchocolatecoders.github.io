@@ -1,0 +1,33 @@
+@font-face{
+   font-family:"LeagueGothic";
+    src: url("fonts/LeagueGothic-Regular.otf");
+}
+
+.name{
+    text-align: center!important;
+    margin-top: 90px;!important;
+    font-family: Arial, sans-serif;
+}
+.email{
+    text-align: center!important;
+    margin-top: 20px;!important;
+    font-family: Arial, sans-serif;
+}
+.message{
+    text-align: center!important;
+    margin-top: 20px!important;
+    font-family: Arial, sans-serif;
+}
+textarea{
+   resize: none!important; 
+}
+.submit_button{
+    text-align: center!important;
+    margin-top: 20px!important;
+}
+.Contacts h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size:70px;
+    font-family: LeagueGothic;
+}
