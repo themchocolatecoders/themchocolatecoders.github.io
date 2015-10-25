@@ -8,10 +8,11 @@
     font-size: 20px;
     margin-top: 10px;
 }
-.navbar-brand{
-    color: white!important;
-    font-size: 20px;
-    margin-top: 10px;
+.navbar-brand img{
+    min-height: 40px;
+    min-width: 100px;
+    height: 0%;
+    width: 0%
 }
 .navbar-collapse{
     color: grey;
