@@ -9,7 +9,10 @@ body {
 
 video{
     -webkit-filter:brightness(0.4);
+    min-height: 100%;
+    min-width: 0%;
     height: 110%;
+    width: 100%;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
